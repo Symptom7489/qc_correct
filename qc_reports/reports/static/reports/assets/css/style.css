@@ -3,8 +3,8 @@
 :root {
     --color-body: #b6cbce;
     --color-heading: #eef3db;
-    --color-base: #556265;
-    --color-base2: #343d3f;
+    --color-base: rgb(85, 98, 101);
+    --color-base2: rgb(52, 61, 63);
     --color-brand: #e0f780;
     --color-brand2: #deff58;
     --sidbar-width: 240px;
@@ -14,7 +14,7 @@
 body {
     min-height: 100vh;
 
-        background: linear-gradient(var(--color-base), var(--color-base2)), url(../images/paul-fiedler.jpg);
+        background: linear-gradient(rgb(85,98,101,0.8), rgb(52,61,63,0.8)), url(../images/paul-fiedler.jpg);
         background-size: cover;
         background-position: center;
     color: var(--color-body);
