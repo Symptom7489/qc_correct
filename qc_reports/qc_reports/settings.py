@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'qc_reports.wsgi.application'
 DATABASES = {
 'default': {
 'ENGINE': 'django.db.backends.mysql',
-'NAME': 'main',
-'USER': 'root',
-'PASSWORD': '',
-'HOST': 'localhost',
-'PORT': '3306',
+'NAME': 'mian',
+'USER': 'ryan',
+'PASSWORD': '?EY,ERnq3QD"*Kfz',
+'HOST': '/cloudsql/qc-reports-365414:us-central1:qc-reports-instance',
+'PORT': '5432',
 }
 }
 
